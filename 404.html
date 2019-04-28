@@ -1,40 +1,15 @@
-<html>
-    <head>
-        <style>        
-        #message{
-               display:block;
-               width:100%;
-               padding:150px 0;
-               line-height:1.6em;
-               text-align:center;
-            }
-        h1, h2 {            
-               color: rgb(151, 151, 151);                
-               float: left;
-               margin:0 0 0 40px;
-               padding:0;
-               float:left;
-               font-family: Georgia, 'Times New Roman', Times, serif;               
-               font-weight: normal;               
-               line-height: normal;                                
-               text-transform: uppercase;
-        }
-        #message .aside{display:block; width:80%; margin:0 auto; padding:0;}        
-        #message .aside h2 span{display:block; font-size:30px;}        
-        #message p:first-child{margin-top:0;}
-        h1 {margin-top:-90px; font-size:200px;}
-        h2 {font-size: 60px;}
-        </style>    
-    </head>
-    <body>
-        <div class="content">          
-            <section id="message">
-              <div class="aside">
-                <h1>404</h1>
-                <h2>Error. <span>Page does not exist</span></h2>
-              </div>
-            </section>
-        </div>
-    </body>
-</html>
+---
+layout: default
+title: "404: Page not found"
+permalink: 404.html
+---
 
+<div class="page">
+  <h1 class="page-title">404: Page not found</h1>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SIaFtAKnqBU?autoplay=1&start=3" frameborder="0" allowfullscreen></iframe>
+
+  <h1>Ahhhhh!</h1>
+
+  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}/">Head back home</a> to try finding it again, or search for it on the <a href="{{ site.baseurl }}/menu/writing.html">archives page</a>.</p>
+</div>

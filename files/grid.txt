@@ -1,0 +1,18 @@
+columns = 39
+rows = 24
+# hex-height = 240
+image-width = 9933
+image-height = 7016
+image-margin = 50
+centered = true
+grid-grain = v
+grid-thickness = 3
+
+output = png
+outfile = grid.png
+antialias = true
+
+coord-bearing = 90
+coord-distance = 100
+coord-format = %tC%02r
+coord-size = 16
