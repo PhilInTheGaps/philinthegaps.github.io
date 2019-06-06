@@ -6,9 +6,8 @@ categories: dsa
 tags: [dsa, rpg, deutsch]
 published: true
 image: 1000-oger-preview.png
+date: 2019-05-16 17:00:00
 ---
-
-## Ogerschlacht Remake
 
 In meiner aktuellen DSA-Kampagne spielen wir in Vorbereitung auf die _Sieben Gezeichneten_ einige alte Abenteuer-Klassiker. Eines dieser Abenteuer war [_Mehr als 1000 Oger_](https://de.wiki-aventurica.de/wiki/Mehr_als_1000_Oger) von Ulrich Kiesow, das das Mini-Strategiespiel _Die Schlacht bei den Trollzacken_ enthält.  
 Hierbei handelt es sich um um ein, auf zwei Letterseiten abgedrucktes, Spielfeld mit einigen Spielmarkern, mit dem man die legendäre [Ogerschlacht](https://de.wiki-aventurica.de/wiki/Ogerschlacht) nachspielen kann. Aus heutiger Sicht ist so ein Strategiespiel, das völlig mit dem eigentlichen Rollenspiel bricht, zwar recht veraltet, doch da meine Spieler eh gerne Strategiespiele spielen und wir mit so alten Abenteuern wie [_Die Göttin der Amazonen_](https://de.wiki-aventurica.de/wiki/Die_G%C3%B6ttin_der_Amazonen) und [_Die Verschwörung von Gareth_](https://de.wiki-aventurica.de/wiki/Die_Verschw%C3%B6rung_von_Gareth) eh dabei sind, DSA-Geschichte zu erleben, wollte ich das Spiel gerne umsetzen.
@@ -31,7 +30,7 @@ Die Lösung war, das Spiel nachzubauen, aber in größer und besser.
 Zuerst musste ich mir ein großes Hex-Grid bauen. Dazu benutzte ich das kostenlose open-source Tool [mkhexgrid](http://www.nomic.net/~uckelman/mkhexgrid/). Das ist für praktisch jede Plattform verfügbar und funktioniert problemlos, auch wenn das letzte Update von 2007 ist.
 Nachdem ich etwas mit der config herumgespielt hatte, konnte ich mir schließlich das Raster generieren.
 
-Hier ist meine Einstellungen:
+Hier sind meine Einstellungen:
 
 ```
 columns = 39
@@ -57,7 +56,7 @@ Mit [Gimp](https://gimp.org) habe ich schließlich das entstandene Bild bearbeit
 
 Das fertige Spielfeld sah nun so aus:
 
-[<img src="../assets/img/spielplan-preview.png" width="500" height="500" />](../files/spielplan.png)
+[<img src="../assets/img/spielplan-preview.png" width="720" />](../files/spielplan.png)
 
 Jetzt hatte ich zwar ein riesiges Bild, aber irgendwie musste ich es noch auf mehrere Seiten drucken und wieder zusammenkleben können. Dazu benutzte ich das freie open-source Tool [PosteRazor](http://posterazor.sourceforge.net/). Damit ist es möglich, Bilder so auf mehrere A4 Seiten zu zerlegen, dass sie sich am Rand etwas überlappen und so einfacher zusammenzukleben sind.
 
@@ -74,7 +73,7 @@ Das Logo des Schwarzen Auges auf den Helden-Tokens ist von [hier](https://zeilen
 
 Die fertigen Tokens sehen so aus:
 
-[<img src="../assets/img/tokens-preview.png" width="500" height="500" />](../files/tokens.png)
+[<img src="../assets/img/tokens-preview.png" width="720"/>](../files/tokens.png)
 
 Die Druckversion kann man [hier herunterladen](../files/tokens.pdf)
 
