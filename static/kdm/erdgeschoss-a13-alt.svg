@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="erdgeschoss-a13-alt.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 447.21502 320.25011"
+   height="12.608273in"
+   width="17.60689in">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     fit-margin-bottom="0.3"
+     fit-margin-right="0.3"
+     fit-margin-left="0.3"
+     fit-margin-top="0.3"
+     lock-margins="true"
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:window-height="1383"
+     inkscape:window-width="2560"
+     inkscape:guide-bbox="true"
+     showguides="false"
+     gridtolerance="6"
+     borderlayer="false"
+     inkscape:pagecheckerboard="false"
+     units="in"
+     showgrid="true"
+     inkscape:current-layer="layer5"
+     inkscape:document-units="in"
+     inkscape:cy="587.59582"
+     inkscape:cx="607.84802"
+     inkscape:zoom="0.5693324"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       originy="-316.08431"
+       originx="-354.3877"
+       empspacing="1"
+       enabled="false"
+       dotted="false"
+       spacingy="25.399999"
+       spacingx="25.399999"
+       units="in"
+       id="grid815"
+       type="xygrid" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide4614"
+       orientation="1,0"
+       position="171.99295,122.72569" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide4616"
+       orientation="1,0"
+       position="832.39293,59.115538" />
+    <inkscape:grid
+       enabled="false"
+       originy="-316.08431"
+       originx="-354.3877"
+       empspacing="2"
+       dotted="false"
+       spacingy="12.7"
+       spacingx="12.7"
+       units="in"
+       id="grid4633"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-2.2973889,-2.775504)"
+     style="display:inline"
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="White">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.71022"
+       id="rect956"
+       width="464.11142"
+       height="333.11047"
+       x="-5.6465497"
+       y="-2.2494905" />
+  </g>
+  <g
+     style="display:inline"
+     transform="translate(-107.40703,-25.625684)"
+     inkscape:label="Base"
+     id="layer4"
+     inkscape:groupmode="layer">
+    <circle
+       r="125.98216"
+       cy="185.64821"
+       cx="255.00935"
+       id="circle4629-3"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle4629-3-6"
+       cx="457.87952"
+       cy="135.05478"
+       r="63.029816" />
+  </g>
+  <g
+     transform="translate(-2.2973889,-2.775504)"
+     sodipodi:insensitive="true"
+     style="display:inline"
+     inkscape:label="Grid"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       id="path978"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.264583px"
+       d="M 9.9173887,10.395504 V 1010.4444 M 35.317391,10.395504 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 M 111.51739,10.395504 V 1010.4444 M 136.9174,10.395504 V 1010.4444 M 162.31741,10.395504 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 M 416.31742,10.395504 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 M 695.71743,10.395504 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 M 924.31746,10.395504 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 m 25.4,-1000.048896 V 1010.4444 M 1000.5174,10.395504 V 1010.4444 M 1025.9172,10.395504 V 1010.4444 M 9.9173887,10.395504 H 1047.1454 M 9.9173887,35.795505 H 1047.1454 M 9.9173887,61.195506 H 1047.1454 M 9.9173887,86.595507 H 1047.1454 M 9.9173887,111.99552 H 1047.1454 M 9.9173887,137.39551 H 1047.1454 M 9.9173887,162.79552 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 M 9.9173887,416.79553 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 M 9.9173887,696.19554 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 m -1037.2280113,25.4 H 1047.1454 M 9.9173887,975.59555 H 1047.1454 M 9.9173887,1000.9956 H 1047.1454" />
+  </g>
+</svg>
