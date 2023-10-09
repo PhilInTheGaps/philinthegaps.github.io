@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phil Hoffmann – dev</title><link>https://philinthegaps.github.io/tags/dev/</link><description>Recent content in dev on Phil Hoffmann</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://philinthegaps.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Making a better Map Tool</title><link>https://philinthegaps.github.io/blog/2019-06-06-making-map-tool/</link><pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate><guid>https://philinthegaps.github.io/blog/2019-06-06-making-map-tool/</guid><description>
+&lt;p>The GM-Companion has a really basic and map tool. I created it because I wanted to have an integrated image viewer and until recently I have not needed a more complex solution.&lt;/p>
+&lt;p>The current tool looks like this:&lt;/p>
+&lt;p>&lt;img src="https://philinthegaps.github.io/img/gm-companion/map-tool-01.png" alt="Current Map Tool">&lt;/p>
+&lt;p>One can zoom in and out and also rotate the image.&lt;/p>
+&lt;p>However when I started to prepare the next adventure of my campaign, which takes place in one large city most of the time, I realised I need a way to quickly find important places and to add notes to them. Also the the current solution always zooms into the center of the map which was kind of annoying.&lt;/p>
+&lt;h2 id="zooming">Zooming&lt;/h2>
+&lt;p>I wanted the new zoom to&lt;/p>
+&lt;ul>
+&lt;li>Scale from the visible center of the map&lt;/li>
+&lt;li>Have smaller steps (the current solution always zooms by a factor of 2)&lt;/li>
+&lt;/ul>
+&lt;p>Thankfully I found a great &lt;a href="https://github.com/oniongarlic/qtquick-flickable-image-zoom/">example project&lt;/a> by &lt;a href="https://github.com/oniongarlic">oniongarlic&lt;/a> on github that I could adapt to my needs.&lt;/p>
+&lt;p>It fixed the centering and by simply changing the step size parameter I could also have smaller steps. However switching to a smaller step size meant that zooming in on large images took way too many clicks. The simple solution was to add a slider.&lt;/p>
+&lt;h2 id="markers">Markers&lt;/h2>
+&lt;p>First of all I had to decide how I wanted to save the markers. I have been playing with the idea of combining all tool-specific projects to one big master project file, but I am still unsure about it. For now every map is kind of it&amp;rsquo;s own project and has a seperate file. It is named like the image file, except it ends with &lt;em>.json&lt;/em>. &lt;code>Example: a-great-map.png.json&lt;/code>&lt;/p>
+&lt;p>This file contains information about the markers:&lt;/p>
+&lt;ul>
+&lt;li>name&lt;/li>
+&lt;li>description&lt;/li>
+&lt;li>x and y coordinates&lt;/li>
+&lt;li>icon (&lt;a href="https://fontawesome.com/">FontAwesome&lt;/a>)&lt;/li>
+&lt;li>icon color&lt;/li>
+&lt;/ul>
+&lt;p>I also created a basic marker editor:&lt;/p>
+&lt;p>&lt;img src="https://philinthegaps.github.io/img/gm-companion/map-tool-03.png" alt="Marker Editor">&lt;/p>
+&lt;p>Now location markers can be placed on a map. One can give the location a name and a description, choose an icon from a list and set a color (predefined one or custom).&lt;/p>
+&lt;p>I experimented with different ways to display the location name. My first solution was to have a label attached to the marker that showed whenever the mouse hovered above the marker. In most cases this worked well like in the next image.&lt;/p>
+&lt;p>&lt;img src="https://philinthegaps.github.io/img/gm-companion/map-tool-04.png" alt="Marker Label 1">&lt;/p>
+&lt;p>However when there are multiple markers next to each other, visibility suffers.&lt;/p>
+&lt;p>&lt;img src="https://philinthegaps.github.io/img/gm-companion/map-tool-05.png" alt="Marker Label 2">&lt;/p>
+&lt;p>So I decided to have the label centered at the top of the map window.&lt;/p>
+&lt;p>&lt;img src="https://philinthegaps.github.io/img/gm-companion/map-tool-06.png" alt="Marker Label 2">&lt;/p>
+&lt;p>My screenshot did not capture the mouse cursor, so you can&amp;rsquo;t see which marker is selected, but I think it is better now.&lt;/p>
+&lt;p>I also added a small dialog frame that is anchored at the bottom of the map window, where a marker can be deleted. It can be opened by doing a right click on a marker or by clicking &amp;ldquo;Delete&amp;rdquo; in the marker menu that opens when a marker is selected.&lt;/p>
+&lt;p>&lt;img src="https://philinthegaps.github.io/img/gm-companion/map-tool-07.png" alt="Marker Label 2">&lt;/p>
+&lt;p>That&amp;rsquo;s it. Let&amp;rsquo;s see how this works in action, hopefully I can test the tool in a session this month.&lt;/p></description></item></channel></rss>
